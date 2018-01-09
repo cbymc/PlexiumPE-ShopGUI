@@ -29,81 +29,81 @@ class Main extends PluginBase implements Listener {
   */
 public $Blocks = [
     "ICON" => ["Blocks",2,0],
-    "Oak Wood" => [17,0,30,15],
-    "Birch Wood" => [17,2,30,15],
-    "Spruce Wood" => [17,1,30,15],
-    "Dark Oak Wood" => [162,1,30,15],
-	"Cobblestone" => [4,0,10,5],
-	"Obsidian" => [49,0,500,250],
-	"Bedrock" => [7,0,50000,10000],
-	"Sand " => [12,0,15,7],
-    "Sandstone " => [24,0,15,7],
-	"Nether Rack" => [87,0,15,7],
-    "Glass" => [20,0,50,25],
-    "Glowstone" => [89,0,100,50],
-    "Sea Lantern" => [169,0,100,50],
-	"Grass" => [2,0,20,10],
-	"Dirt" => [3,0,10, 5],
-    "Stone" => [1,0,20,10]
+    "Oak Wood" => [17,0,30,0],
+    "Birch Wood" => [17,2,30,0],
+    "Spruce Wood" => [17,1,30,0],
+    "Dark Oak Wood" => [162,1,30,0],
+	"Cobblestone" => [4,0,10,0],
+	"Obsidian" => [49,0,500,0],
+	"Bedrock" => [7,0,50000,0],
+	"Sand " => [12,0,15,0],
+    "Sandstone " => [24,0,15,0],
+	"Nether Rack" => [87,0,15,0],
+    "Glass" => [20,0,50,0],
+    "Glowstone" => [89,0,100,0],
+    "Sea Lantern" => [169,0,100,0],
+	"Grass" => [2,0,20,0],
+	"Dirt" => [3,0,10,0],
+    "Stone" => [1,0,20,0]
   ];
 
   public $Ores = [
     "ICON" => ["Ores",266,0],
-    "Coal" => [263,0,100,50],
-    "Iron Ingot" => [265,0,200,100],
-    "Gold Ingot" => [266,0,300,150],
-    "Diamond" => [264,0,500,250]
+    "Coal" => [263,0,100,0],
+    "Iron Ingot" => [265,0,2100,0],
+    "Gold Ingot" => [266,0,1300,0],
+    "Diamond" => [264,0,2500,0]
   ];
 
   public $Tools = [
     "ICON" => ["Tools",278,0],
-    "Diamond Pickaxe" => [278,0,500,250],
-    "Diamond Shovel" => [277,0,500,250],
-    "Diamond Axe" => [279,0,500,250],
-    "Diamond Hoe" => [293,0,500,250],
-    "Diamond Sword" => [276,0,750,375],
-    "Bow" => [261,0,400,200],
-    "Arrow" => [262,0,25,5]
+    "Diamond Pickaxe" => [278,0,500,0],
+    "Diamond Shovel" => [277,0,500,0],
+    "Diamond Axe" => [279,0,500,0],
+    "Diamond Hoe" => [293,0,500,0],
+    "Diamond Sword" => [276,0,750,0],
+    "Bow" => [261,0,400,0],
+    "Arrow" => [262,0,25,0]
   ];
 
   public $Armor = [
     "ICON" => ["Armor",311,0],
-    "Diamond Helmet" => [310,0,1000,500],
-    "Diamond Chestplate" => [311,0,2500,1250],
-    "Diamond Leggings" => [312,0,1500,750],
-    "Diamond Boots" => [313,0,1000,500]
+    "Diamond Helmet" => [310,0,1000,0],
+    "Diamond Chestplate" => [311,0,2500,0],
+    "Diamond Leggings" => [312,0,1500,0],
+    "Diamond Boots" => [313,0,1000,0]
   ];
 
   public $Farming = [
     "ICON" => ["Farming",293,0],
-    "Pumpkin" => [86,0,50,25],
-    "Melon" => [360,13,50,25],
-    "Carrot" => [391,0,80,40],
-    "Potato" => [392,0,80,40],
-    "Sugarcane" => [338,0,80,40],
-    "Wheat" => [296,6,80,40],
-    "Pumpkin Seed" => [361,0,20,10],
-    "Melon Seed" => [362,0,20,10],
-    "Seed" => [295,0,20,10]
+    "Pumpkin" => [86,0,50,0],
+    "Melon" => [360,13,50,0],
+    "Carrot" => [391,0,80,0],
+    "Potato" => [392,0,80,0],
+    "Sugarcane" => [338,0,80,0],
+    "Wheat" => [296,6,80,0],
+    "Pumpkin Seed" => [361,0,20,0],
+    "Melon Seed" => [362,0,20,0],
+    "Seed" => [295,0,20,0]
   ];
 
   public $Food = [
     "ICON" => ["Food",364,0],
-	"Cooked Chicken" => [366,0,10,5],
-    "Steak" => [364,0,10,5],
-    "Golden Apple" => [322,0,500,100],
-    "Enchanted Golden Apple" => [466,0,5000,1000]
+	"Cooked Chicken" => [366,0,10,0],
+    "Steak" => [364,0,10,0],
+    "Golden Apple" => [322,0,500,0],
+    "Enchanted Golden Apple" => [466,0,5000,0]
   ];
 
   public $Miscellaneous = [
     "ICON" => ["Miscellaneous",368,0],
-	"PVP Elixir" => [373,101,35000,1000],
-	"Raiding Elixir" => [373,100,10000,1000],
-	"Furnace" => [61,0,20,10],
-    "Crafting Table" => [58,0,20,10],
-	"Ender Chest " => [130,0,1000,500],
-    "Enderpearl" => [368,0,1000,500],
-    "Bone" => [352,0,50,25],
+	"Mob Spawner" => [373,101,35000,0],
+	"Zombie Egg" => [383:32,100,10000,0],
+	"Iron Golem Egg" => [383:20,0,20,0],
+    "Crafting Table" => [58,0,20,0],
+	"Ender Chest " => [130,0,1000,0],
+    "Enderpearl" => [368,0,1000,0],
+    "Bone" => [352,0,50,0],
     "Book & Quill" => [386,0,100,0]
   ];
 
